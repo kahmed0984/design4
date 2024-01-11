@@ -1,0 +1,455 @@
+@font-face{
+    font-family:'georgia bold';
+    src:url(font/georgia/georgia bold.ttf);
+}
+@font-face{
+    font-family:'Georgia Regular font';
+    src:url(font/georgia/Georgia Regular font.ttf);
+}
+.hr1{
+	background:#D248E6;
+	width: 100%;
+	height: 10px;
+	margin:0px;
+}
+p{
+    font-size: 14px;
+}
+.section_padding{
+	padding:55px 0px;
+}
+body{
+    margin:0px;
+    padding: 0px;
+    font-family:'Georgia Regular font';
+}
+/***********************************************************
+************************************************************
+                        Social Icon Start
+************************************************************
+***********************************************************/
+.social_icon{
+    top: 40%;
+    width: 6%;
+}
+.social_icon ul{
+    margin:0px;
+    padding: 0px;
+}
+.social_icon ul li{
+    list-style: none;
+}
+.social_icon ul li a i{
+    font-size: 24px;
+    padding: 3px;
+    padding-top: 8px;
+    height: 40px;
+    width: 55px;
+    text-align: center;
+    background:red;
+    color:white;
+    float: left;
+}
+.social_icon ul li a i:hover{
+    width: 80px;
+    transition: .3s;
+}
+.social_icon ul li:nth-child(1) i{
+    border-top-right-radius: 10px;
+}
+.social_icon ul li:nth-child(2) i{
+    background: green;
+}
+.social_icon ul li:nth-child(3) i{
+    background: gold;
+    border-bottom-right-radius: 10px;
+}
+.social_icon ul li:nth-child(1) i:hover{
+    color:blue;
+    background:#ff00c0;
+    border-bottom-right-radius: 10px;
+}
+.social_icon ul li:nth-child(2) i:hover{
+   background:#174e95;
+   color: #f957e7;
+   border-top-right-radius: 10px;
+   border-bottom-right-radius: 10px;
+}
+.social_icon ul li:nth-child(3) i:hover{
+    color:#ff26a0;
+    background:#00dbff;
+    border-top-right-radius: 10px;
+}
+
+
+
+
+/*
+.box{
+    width: 0px;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    float: left; 
+}
+.box1{
+    border-left: 20px solid gold;
+    display: none;
+}
+.box2{
+    border-left: 20px solid #174e95;
+    display: none;
+}
+.box3{
+    border-left: 20px solid #00dbff;
+    display: none;
+}
+.box2 .social_icon ul li:nth-child(2) i:hover{
+    visibility: visible;
+} */
+
+/***********************************************************
+************************************************************
+                        Heder section Start
+************************************************************
+***********************************************************/
+header{
+	background: white;
+    padding-top: 20px !important;
+}
+.search_form input{
+	position: relative;
+	background: #c4c4c4;
+	border-radius: 15px;
+	border:0px;
+}
+form i {
+    position: absolute;
+    top: 9px;
+    right: 26px;
+    color: #D248E6;
+    background: #FFFFFF;
+    padding: 4px;
+    font-size: 13px !important;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.header_menu{
+	margin-top:0px;
+}
+.logo{
+    cursor:pointer;
+
+}
+.logo h2{
+	font-size:28px;
+	margin:0px;
+    color:#D248E6;
+}
+.logo h2 span{
+	font-size:40px ;
+
+}
+.logo h6{
+	color:#666666;
+	font-size:13px;
+	margin-left: 4px;
+	opacity: .8;
+}
+.mobile_menu_icon {
+    color: #D248E6;
+    display: none;
+    font-size: 25px;
+    margin: 15px 0 10px 15px;
+    cursor: pointer;
+    transition: .3s;
+    float: right;
+    text-align: center;
+    margin: 29px 5px;
+}
+nav {
+    float: right;
+    padding: 0px !important;
+    margin-top: 33px;
+}
+nav ul li {
+    padding: 5px;
+    position: relative;
+}
+
+nav ul li a {
+    color: #666666;
+    text-transform:uppercase; 
+    font-size: 14px;
+    transition: .3s;
+    padding: 0px !important;
+    padding-top: 5px !important;
+    border-top: 5px solid transparent;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	margin-right: 12px;
+}
+nav ul li a:hover{
+	color: black;
+	border-top: 5px solid #D248E6;
+}
+
+
+
+/***********************************************************
+************************************************************
+                        Carousel section Start
+************************************************************
+***********************************************************/
+.carousel_section {
+    background: white;
+    border-top: 2px solid #D248E6;
+    border-bottom: 2px solid #D248E6;
+}
+.carousel_content{
+	width: 100%;
+	height: auto;
+}
+.carousel_content img{
+	width: 100%;
+	height: auto;
+}
+#carousel_caption {
+    width: 40%;
+    left:auto;
+    bottom: 0px;
+    right:0px;
+    text-align: left;
+    padding: 15px;
+    padding-left: 25px;
+    background: #00000054;
+    opacity: .8;
+    border-top-left-radius: 40px;
+    
+}
+.arrow_icon {
+    padding: 4px;
+    background: black;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.arrow_icon span {
+    height: 25px !important;
+    width: 30px;
+    margin: 5px 4px 0px;
+}
+.carousel_content ul {
+    right: auto;
+    margin: 0px 80px 20px 70px;
+}
+.carousel_content ul li {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border:2px solid transparent;
+}
+.carousel-indicators .active {
+    background: transparent;
+    opacity: 1;
+    border: 2px solid white;
+}
+
+
+.header_content_section{
+    background: #D9D9D7;
+}
+.header_content{
+    text-align: center;
+}
+.header_content h2{
+    color:#8D008A;
+    font-style:italic;
+}
+
+
+/***********************************************************
+************************************************************
+                        Service section Start
+************************************************************
+***********************************************************/
+.service_section{
+    background: white;
+}
+.service_icon {
+    text-align: center;
+}
+.service_icon i{
+    font-size: 40px;
+    color:#894AA3;
+    transition:.5s;
+}
+.service_icon i:hover{
+    transform: rotate(5760deg);
+    color:blue;
+}
+.service_discription h3{
+    color:#62008A;
+}
+.service_discription h6{
+    color:#666666;
+    opacity: .8;
+}
+
+
+/***********************************************************
+************************************************************
+                        Team section Start
+************************************************************
+***********************************************************/
+.team_section{
+    background: #D9D9D7;
+
+}
+.team_box{
+    text-align: center;
+    padding: 15px;
+    background: white;
+    box-shadow: 5px 5px 5px 5px #787579;
+    margin: 30px auto;
+    border-radius: 15px;
+}
+.team_box img{
+    height: auto !important;
+    width: 100% !important;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 0px black;
+}
+.team_box h4{
+    color:#62008A;
+    margin: 17px auto;
+}
+.team_box p{
+    color:#666666;
+    opacity: .8;
+}
+
+.team_icon i {
+    font-size: 20px;
+    padding: 7px;
+    background-color: #62008A;
+    color: white;
+    border-radius: 50%;
+    width: 35px;
+}
+.team_icon i:hover{
+    color:#62008A;
+    background: white;
+    transition: .3s;
+}
+
+
+
+/***********************************************************
+************************************************************
+                        Footer section Start
+************************************************************
+***********************************************************/
+footer{
+    background: white;
+}
+.footer_box h5{
+    color:#752397;
+    margin-bottom: 35px;
+    font-weight: bold;
+}
+.footer_box p{
+    opacity: .8;
+    margin-bottom: 4px;
+}
+address{
+    opacity: .8;
+}
+.footer_box2 ul{
+    margin:0px;
+    padding: 0px;
+}
+.footer_box2 ul li{
+    list-style: none;
+    border:1px solid transparent;
+    border-bottom: 1px solid #771c9d;
+    border-top: none;
+}
+.footer_box2 ul li a:hover{
+    color:#3A0451;
+}
+.footer_box2 ul li:hover{
+    color:#3A0451;
+    border:1px solid #7F22A6;
+    border-top: none;
+    border-right: 5px solid #7F22A6;
+}
+.footer_box2 ul li a{
+    text-decoration: none;
+    color:#771c9d;
+    border:1px solid transparent;
+}
+.footer_box2 ul li:nth-child(1){
+    border-top: 1px solid transparent;
+}
+.footer_box2 ul li:nth-child(1):hover{
+    border-top: 1px solid #7F22A6;
+}
+.footer_box3 h6{
+    color: #771c9d;
+    font-style: italic;
+    font-weight: bold;
+}
+.footer_box3 a{
+    float: right;
+    text-decoration: none;
+    color:#771c9d;
+}
+.footer_box3 a:hover{
+    color:#ff00fa;
+}
+.footer_box4 input:focus{
+    box-shadow: 0 0 0 .2rem #D248E678;
+}
+form input[type="submit"]{
+    background: #D248E6;
+    color: white;
+    transition: .3s;
+    font-weight: bold;
+}
+form input[type="submit"]:hover{
+    background: #881399;
+    color: white;
+}
+
+
+/***********************************************************
+************************************************************
+                        End section Start
+************************************************************
+***********************************************************/
+.end_section{
+    background: #D248E6;
+    height: 70px;
+}
+.end_para{
+    width: 100%;
+}
+.end_para p{
+    color:white;
+    font-size: 15px;
+    margin-top: 24px;
+}
+.end_para1{
+    float: left;
+}
+.end_para2{
+    float: right;
+}
+/*end section end*/
+
+
+.material-scrolltop:focus{
+    outline: none;
+}
+.material-scrolltop i{
+    color:white;
+}
